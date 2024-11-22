@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "geo",
+    "slug": "geo_proyect",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/geo.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/geo.jpg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "scheme": "geo",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "package": "com.sena.geo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/geo.jpg",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sena.geo"
+    },
+    "web": {
+      "favicon": "./assets/geo.jpg"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "bbce5372-c2f0-45f7-a5ad-ebc97419b4b3"
+      }
+    }
+  }
+}
